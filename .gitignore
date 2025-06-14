@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+trading_env/
+
+# IDE  
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys only
+.env
+*api_key*
+*secret*
