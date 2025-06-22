@@ -2,7 +2,7 @@ import unittest
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
-from portfolio import Portfolio
+from src.portfolio import Portfolio
 
 class TestPortfolio(unittest.TestCase):
     
@@ -14,7 +14,7 @@ class TestPortfolio(unittest.TestCase):
     # Test 1: Initialization
     def test_default_initial_cash(self):
         """Test portfolio starts with default cash"""
-        self.assertEqual(self.portfolio.getCashBalance(), 66001)
+        self.assertEqual(self.portfolio.getCashBalance(), 66000)
 
 if __name__ == '__main__':
     unittest.main()        
