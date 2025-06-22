@@ -1,6 +1,12 @@
 # quant-trading-system
 
-current file structure 
+## To start up application 
+Use `streamlit run main_dashboard.py` to start the dashboard.
+
+## To test application 
+Use `pytest` to start the dashboard. 
+
+## current file structure 
 
 ├── config
 │   └── settings.py (368 B)
@@ -23,3 +29,7 @@ current file structure
 ├── README.md (22 B)
 ├── requirements.txt (108 B)
 └── show-tree.ps1 (2.3 KB)
+
+## naming conventions 
+- to stick to underscores for file names and camelCase for objs 
+- split into src and test folder for easier readability 
